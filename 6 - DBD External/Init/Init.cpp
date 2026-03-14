@@ -6,17 +6,13 @@ bool Init::DriverInit() {
 	//Replace with your own Driver Init
 	//...
 
-	driver_handle = driver::OpenHandle();
-
-	pid = driver::find_process(L"DeadByDaylight-Win64-Shipping.exe");
+	pid = // findprocess(L"DeadByDaylight-Win64-Shipping.exe");
 	if (pid == 0) {
 		return false;
 	}
 	printf("[+] Pid of Dbd: %ld\n", pid);
 
-	driver::SetCr3_Normal(driver_handle, pid);
-
-	base_address = driver::FindProcessBaseByPID(driver_handle, pid);
+	base_address = //FindProcessBase;
 	if (base_address == 0)
 		return false;
 

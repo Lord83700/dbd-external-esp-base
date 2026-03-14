@@ -92,9 +92,6 @@
     <ClInclude Include="Header\Global\bone_mapping.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Header\Driver\driver.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="imgui.ini" />

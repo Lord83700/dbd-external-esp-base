@@ -143,7 +143,6 @@
   <ItemGroup>
     <ClInclude Include="Cheat\cheat.h" />
     <ClInclude Include="Cheat\Esp\esp.h" />
-    <ClInclude Include="Header\Driver\driver.h" />
     <ClInclude Include="Header\Global\bones.h" />
     <ClInclude Include="Header\Global\bone_mapping.h" />
     <ClInclude Include="Header\Global\config.h" />
