@@ -1,0 +1,18 @@
+x64/
+Debug/
+Release/
+packages/
+*.obj
+*.log
+*.tlog
+*.pdb
+*.sys
+*.inf
+6\ -\ DBD External/game.exe
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
