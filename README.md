@@ -47,7 +47,9 @@ Offsets in `Header/Global/offsets.h` are hardcoded and **will break on game upda
 
 - `GWorld`: `0xBA3F5B0`
 - `GNames`: `0xB7B30C0`
-- `GObjects`: `0xB886740`
+- `GObjects`: `not set`
+
+SDK can change too and **break on game updates**, so if needed update the `Header/SDK/sdk.h`.
 
 ## Thanks
 
